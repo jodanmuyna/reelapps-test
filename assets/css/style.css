@@ -605,7 +605,7 @@ section {
 .count-cont{
   position: absolute;
   background: #fff;
-  padding: 27% 0;
+  padding: 75px 0;
   border-radius: 50%;
   height: 230px;
   width: 230px;
@@ -667,7 +667,21 @@ section {
 
 @media (max-width: 768px) {
   .cliens img {
-    max-width: 40%;
+    max-width: 100%;
+  }
+  .count-cont {
+      position: absolute;
+      background: #fff;
+      padding: 51px 0;
+      border-radius: 50%;
+      height: 165px;
+      width: 165px;
+      z-index: 999;
+  }
+}
+@media (max-width: 600px) {
+  .cliens img {
+    max-width: 56%;
   }
 }
 
@@ -979,7 +993,6 @@ section {
 }
 .owl-dots{
   text-align: center !important;
-      margin-left: 30px;
 }
 /*--------------------------------------------------------------
 # Services
@@ -1782,6 +1795,7 @@ section {
 }
 .owl-nav button span{
   font-size: 50px;
+  color: #fff;
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
@@ -1839,8 +1853,16 @@ section {
     position: static;
     margin-top: 30px;
   }
+  .owl-nav .owl-next{
+    right: 0
+  }
+  .owl-nav .owl-prev{
+   left: 0
+  }
 }
-
+.portfolio-details .portfolio-details-carousel{
+  margin: auto;
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
