@@ -665,6 +665,11 @@ section {
   transform: scale(1.1);
 }
 
+.logo-footer{
+  position: absolute;
+  left: 25px;
+  top: 128px;
+}
 @media (max-width: 768px) {
   .cliens img {
     max-width: 100%;
@@ -678,10 +683,21 @@ section {
       width: 165px;
       z-index: 999;
   }
+  .logo-footer{
+    position: unset !important;
+  }
 }
 @media (max-width: 600px) {
   .cliens img {
     max-width: 56%;
+  }
+  .logo-footer{
+    position: absolute !important;
+    right: 0;
+    left: 0;
+    top: 128px;
+    margin: auto;
+    width: 35%;
   }
 }
 
