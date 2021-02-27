@@ -689,7 +689,7 @@ section {
 }
 @media (max-width: 600px) {
   .cliens img {
-    max-width: 56%;
+    max-width: 65%;
   }
   .logo-footer{
     position: absolute !important;
